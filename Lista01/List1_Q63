@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+/*Escreva um programa que leia dois vetores de números reais de mesma dimensão (10
+posições), e imprima o vetor resultante da soma destes vetores.
+*/
+
+int main(){
+//variaveis
+int vet1[10] = {21,56,27,78,26,90,11,38,94,30};
+int vet2[10] = {34,26,48,72,16,50,121,18,84,2};
+int vet3 [10];
+int icont;
+
+//inicio
+for (icont = 0; icont < 10; icont++)
+{
+    vet3[icont] = vet1[icont] + vet2[icont];
+    
+    printf("%d\n", vet3[icont]);
+}
+
+}
